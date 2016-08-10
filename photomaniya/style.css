@@ -1,0 +1,527 @@
+/*   
+Theme Name: Фотомания
+Theme URI: http://tenletters.kz/
+Description: Тема сделанная с душой и любовью. Качество которое Вы запомните. Творческое объединение. Создание сайтов. Дизайн и Веб-дизайн.
+Author: Максат [tenletters]
+Author URI: http://tenletters.kz/
+Version: 0.0.1
+.
+Тема сделанная с душой для сайта Фотомании
+.
+*/
+
+
+/*main colors
+    #2d87d7 - blue
+    opacity 0.85
+main colors*/
+
+.nav {
+    width: 100%;
+    background-color: #2d87d7;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.nav section {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.page_item {
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px solid white;
+}
+
+.page_item a {
+    text-decoration: none;
+}
+
+.nav_punct a {
+    color: white;
+}
+
+.nav_punct:first-child {
+    padding-left: 0;
+}
+
+.nav_punct:last-child {
+    border-right: none;
+    padding-right: 0;
+}
+
+.wrapper {
+    background-color: rgba(250, 250, 250, 0.85);
+    border: 1px solid #dbe8f4;
+    padding: 20px;
+    width: 960px;
+}
+
+.social {
+    width: 240px;
+    height: 270px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Arial';
+    font-size: 13px;
+    background-color: #376aa9;
+    border: 1px solid #dbe8f4;
+}
+
+.slide {
+    width: 689px;
+    height: 270px;
+    border: 1px solid #dbe8f4;
+    border-radius: 8px;
+    margin-left: 20px;
+    background-image: url(../images/slider_photo.jpg);
+    background-size: contain;
+    background-position: center;
+}
+
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* delete*/
+
+.vk_icon {
+    width: 20px;
+    height: 20px;
+    background-color: #cacaca;
+}
+
+.vk_section {
+    padding: 5px;
+}
+
+.vk_wrapper {
+    width: 240px;
+    height: 210px;
+    background-color: white;
+    color: #524169;
+}
+
+
+/* delete*/
+
+.button_buy {
+    font-family: Century;
+    font-size: 15px;
+    border-radius: 8px;
+    background: linear-gradient(#d32c94, #b51076);
+    color: white;
+    padding: 8px;
+    border: 3px solid #fbd4ec;
+    margin: 10px;
+}
+
+.block2 {
+    border-top: 1px solid #dbe8f4;
+    border-bottom: 1px solid #dbe8f4;
+    position: relative;
+    left: -20px;
+    width: 1000px;
+    height: 320px;
+    background-image: url(../images/window.jpg);
+    background-size: cover;
+    background-position: top;
+    margin-top: 25px;
+}
+
+h2 {
+    color: #2d87d7;
+    text-align: center;
+    font-size: 17px;
+}
+
+.slogan_block2 {
+    position: relative;
+    top: -13px;
+}
+
+.slogan_block2 h2 {
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+.comment_block {
+    margin-left: 35px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #dbe8f4;
+    border-radius: 8px;
+    width: 240px;
+    font-style: italic;
+}
+
+.comment_block1 {
+    margin-left: 20px;
+}
+
+.comment_icon {
+    text-align: center;
+}
+
+.circle {
+    width: 66px;
+    height: 66px;
+    border: 1px solid #dbe8f4;
+    border-radius: 100%;
+}
+
+.comment_name {
+    margin-top: 20px;
+}
+
+.user_info {
+    height: 37px;
+    margin-left: 18px;
+}
+
+.user_name {
+    font-family: 'Arial';
+    color: #b30f75;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.user_city {
+    font-style: normal;
+}
+
+.comment {
+    text-align: center;
+    height: 160px;
+    border-bottom: 1px solid #dbe8f4;
+}
+
+.comment_func {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.send_comment {
+    width: 750px;
+}
+
+.a_l {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 27px;
+    height: 260px;
+    background-image: url(../images/a_l.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.a_r {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 27px;
+    height: 260px;
+    background-image: url(../images/a_r.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.project {
+    position: relative;
+    width: 170px;
+    height: 222px !important;
+    padding: 20px;
+    background-color: white;
+    margin-left: 3.5px;
+    margin-right: 3.5px;
+    border-radius: 8px;
+    border: 1px solid #dbe8f4;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.project:hover .project_text {
+    position: absolute;
+    width: 182px;
+}
+
+.project:hover {
+    border: 1px solid #4695dc;
+}
+
+.name_company {
+    font-family: Kelson;
+    font-size: 24px;
+}
+
+.name_comp {
+    color: #b30f75;
+    margin-left: 13px;
+    width: 300px;
+}
+
+.name_company_ul {
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 14px;
+}
+
+.name_company_ul li {
+    list-style-type: disc;
+    float: left;
+    margin-left: 28px;
+    font-weight: 600;
+}
+
+.name_company_ul li:first-child {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.name_company_ul li:nth-child(4) {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.phone_number {
+    color: #b30f75;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.adress {
+    color: #b30f75;
+    margin-left: 87px;
+}
+
+.adress_city {
+    font-weight: 600;
+}
+
+.adress_street {
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.phone {
+    margin-left: 45px;
+}
+
+.project_text {
+    position: absolute;
+    padding-top: 12px;
+    border-top: 1px solid #dbe8f4;
+    font-size: 13px;
+    left: 0;
+    margin-left: 15px;
+    bottom: 15px;
+    width: 182px;
+}
+
+.project_img {
+    height: 150px;
+}
+
+.contact_adress {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.map {
+    width: 512px;
+    height: 312px;
+    background-image: url(/images/map.jpg);
+    border-radius: 8px;
+    border: 1px solid #dbe8f4;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.building_img {
+    width: 320px;
+    height: 312px;
+    margin: 20px;
+}
+
+.strong {
+    font-weight: 600;
+}
+
+.search {
+    text-align: right;
+    width: 476px;
+}
+
+.breadcrumb {
+    width: 478px;
+}
+
+.search_button {
+    color: white;
+    background-color: #3691e2;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    padding: 6px;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-left: -4px;
+}
+
+.search_input {
+    padding: 4px;
+    border-radius: 8px 0 0 8px;
+}
+
+.product {
+    margin: 10px;
+}
+
+.products {
+    text-align: center;
+}
+
+.page_switch_paginations {
+    position: relative;
+    background-color: #f3f2f2;
+    border-top: 1px solid #dbe8f4;
+    width: 960px;
+    left: -20px;
+    top: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+.page_switch_paginations a {
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.left_menu {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #dbe8f4;
+    border-radius: 8px;
+}
+
+.left_menu ul {
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.left_menu_punct {
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid #dbe8f4;
+    cursor: pointer;
+}
+
+.left_menu_punct:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.left_menu_punct_active {
+    color: #599add;
+}
+
+.product_segment {
+    text-align: left;
+    border: 1px solid #dbe8f4;
+    padding: 5px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.product_segment:first-child {
+    margin-top: 0;
+}
+
+.right_wrapper {
+    width: 700px;
+    border-radius: 8px;
+    margin-left: 17px;
+}
+
+.product_segment_photos img {
+    border: 1px solid #dbe8f4;
+    border-radius: 8px;
+    width: 123px;
+    height: 123px;
+    cursor: pointer;
+}
+
+.segment_name_and_price {
+    font-weight: 600;
+}
+
+.product_segment_price {
+    font-weight: 500;
+    margin: 10px;
+    margin-bottom: 28px;
+}
+
+.product_segment_name {
+    margin-left: 10px;
+    color: #b30f75;
+}
+
+.product_segment_info_punct {
+    margin-top: 10px;
+}
+
+tr:first-child {
+    font-weight: 600;
+}
+
+.stripy {
+    border-radius: 8px;
+    border: 1px solid #dbe8f4;
+}
+
+.stripy tr:nth-child(2n) {
+    background-color: #f4f4f4;
+}
+
+.stripy tr {
+    text-align: center;
+}
+
+.stripy tr td:nth-child(2n) {
+    border-left: 1px solid #dbe8f4;
+}
+
+.segment_name_and_sales {
+    margin-left: 10px;
+}
+
+.no_under {
+    text-decoration: none;
+}

@@ -1,0 +1,47 @@
+/*standart*/
+@font-face {
+    font-family: Century; /* Имя шрифта */
+    src: url(../fonts/CenturyGothicReg.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Kelson; /* Имя шрифта */
+    src: url(../fonts/kelson/kelsonsansboldru.ttf); /* Путь к файлу со шрифтом */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/main_bg.jpg);
+    background-size: cover;
+    background-position: top;
+    font-family: Century;
+    font-weight: 500;
+    font-size: 15px;
+}
+li{
+    list-style-type: none;
+}
+/*standart*/
+section {
+    position: relative;
+    width: 1000px;
+    left: 50%;
+    margin-left: -500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.inline {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.vm {
+    vertical-align: middle;
+}
+
+button {
+    cursor: pointer;
+}
+
+
